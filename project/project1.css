@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.header {
+  background-image: url(../project/logo.gif);
+  height: 350px;
+  min-height: 100px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding: 10px;
+  background-attachment: fixed;
+}
+.navbar {
+  display: flex;
+  background-color: #333;
+  font-size: 25px;
+  position: sticky;
+  top: 0px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+section h2 {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  margin-left: 740px;
+  border-radius: 70px;
+  color: azure;
+  background: rgb(187, 178, 81);
+  background: linear-gradient(
+    0deg,
+    rgba(187, 178, 81, 1) 84%,
+    rgba(233, 174, 47, 1) 100%
+  );
+  padding: 5px;
+}
+.aman {
+  border-radius: 50%;
+  margin-left: 740px;
+  margin-top: 30px;
+}
+section h3{
+  font-size:45px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+.socialY,.socialL,.socialI{
+  text-decoration: none;
+  background-color: rgb(201, 196, 196);
+  font-size: 20px;
+  padding: 10px 25px 10px 25px;
+  margin: 10px;
+  border-radius: 40px;
+}
+.socialY{
+  margin-left: 620px;
+  color: red;
+}
+.socialL{
+  color: rgb(37, 139, 227);
+}
+.socialI{
+  color: rgb(235, 89, 226);
+}
+section h4{
+  text-align: center;
+  font-size: 28px;
+  color: rgb(37, 37, 157);
+}
+section h5{
+  text-align: center;
+  font-size: 17px;
+  margin: 0px 200px 0px 200px;
+}
+@media screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .t1 {
+    margin-left: 0px !important;
+  }
+}
+.navbar a:hover {
+  background-color: white;
+  color: #333;
+}
+.t1 {
+  margin-left: auto;
+}
