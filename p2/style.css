@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.main-container {
+  display: flex;
+}
+.container {
+  width: 100%;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.side-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+.side-icon p {
+  font-size: 12px;
+}
+.bars {
+  margin-top: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.logo {
+  margin-left: 12px;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+}
+input {
+  width: 444px;
+  height: 35px;
+}
+.serch {
+  background-color: rgb(200, 203, 206);
+  width: 63px;
+  padding-left: 15px;
+  height: 35px;
+}
+.mic {
+  margin-left: 17px;
+  background-color: rgb(200, 203, 206);
+  width: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.rightside {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+.rightside div {
+  padding: 10px;
+}
+.tags {
+  display: flex;
+  padding: 10px 15px;
+  gap: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.tag {
+  border: 1px solid rgb(22, 22, 22);
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+.dark {
+  color: white;
+  background-color: black;
+}
+.light {
+  background-color: rgb(238, 238, 238);
+  color: rgb(67, 67, 67);
+}
+main {
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+}
+.video-contain {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  padding: 0px 25px 10px 0px;
+}
+.avatar-content {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: row;
+}
+.content {
+  padding-left: 10px;
+}
+.content h3 {
+  font-size: 20px;
+}
+.channel-name {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px;
+}
+.info {
+  font-size: 13px;
+}
