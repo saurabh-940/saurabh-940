@@ -1,0 +1,19 @@
+.object {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  /* left: 0; */
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+.name{
+    margin-bottom: 80px;
+}
